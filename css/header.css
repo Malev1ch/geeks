@@ -1,0 +1,49 @@
+.header__header_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    background: var(--ui-yellow, #FCE900);
+    border-bottom: 1px solid black;
+}
+
+.header__line {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__header_nav-menu>ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+
+.header-links>a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: Reforma Grotesk Demi;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.header-info_about {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--ui-black, #000);
+    color: var(--ui-yellow, #FCE900);
+    font-family: Reforma Grotesk Demi;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}

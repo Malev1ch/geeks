@@ -1,0 +1,65 @@
+.header-top_section-first {
+    background-color: #FCE900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-top__future-it {
+    background: var(--ui-yellow, #FCE900);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+
+.header-top__you-future {
+    color: var(--ui-yellow, #FCE900);
+    background-color: black;
+    text-align: center;
+    font-family: Reforma Grotesk Demi;
+    font-size: 102px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 8.16px; 
+    transform: rotate(-3deg); 
+}
+
+.in__it {
+    background-color: #FCE900;
+    color: var(--ui-black, #000);
+    
+}
+.header-top__itProfession {
+    color: var(--ui-black, #000);
+    background-color: #FCE900;
+    font-family: Onest;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(-3deg);
+}
+
+.btn-firstSection {
+    width: 1300px;
+    margin-bottom: 20px;
+}
+
+.section__second-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    gap: 20px;
+}
+.btn_about {
+    width: 70px;
+    transform: rotate(-3deg);
+}
+
+.section__second-about>img {
+    width: 100%;
+}
