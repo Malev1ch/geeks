@@ -16,7 +16,7 @@ table {
     border: 1px solid grey;
  }
 th:nth-child(2) {
-    width: 70px;
+    width: 30px;
 }
   thead {
     display: flex;
