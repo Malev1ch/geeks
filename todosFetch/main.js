@@ -1,7 +1,7 @@
-const userColumn = document.querySelector('th:nth-child(1)');
-const idColumn = document.querySelector('th:nth-child(2)');
-const titleColumn = document.querySelector('th:nth-child(3)');
-const completedColumn = document.querySelector('th:nth-child(4)');
+const userColumn = document.querySelector('.th_userId');
+const idColumn = document.querySelector('.th_id');
+const titleColumn = document.querySelector('.th_title');
+const completedColumn = document.querySelector('.th_completed');
 
 fetch(`https://jsonplaceholder.typicode.com/todos`)
   .then((res) => res.json())
