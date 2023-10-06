@@ -11,17 +11,37 @@
 table {
     border: 1px solid grey;
  }
-
+ 
  th {
     border: 1px solid grey;
  }
-th:nth-child(1) {
-    width: 50px;
+
+
+tr {
+    gap: 5px;
+    display: flex;
+    padding: 0 5px 5px;
 }
-th:nth-child(2) {
-    width: 40px;
-}
+
   thead {
     display: flex;
     flex-direction: column;
+  }
+
+
+  .th-userid {
+    width: 45px;
+  }
+
+  .th-id  {
+    width: 30px;
+  }
+  
+
+  .th-title {
+    width: 535px; 
+  }
+
+  .th-completed {
+    width: 80px;
   }
